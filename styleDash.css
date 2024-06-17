@@ -1,0 +1,93 @@
+#topBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;     
+}
+
+.head{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#toprightBox{
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+}
+
+#contentBox{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    justify-content: center;
+    align-self: center;
+}
+
+#cLogo{
+    width: 35px;
+    height: 70px;
+}
+
+#topBar p{
+    align-self: center;
+}
+
+.teamHead{
+    font-size: 19px !important;
+    padding: 0 0 12px 0;
+}
+
+#dashContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 90px;
+}
+
+.dashbox{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 40%;
+}
+
+#teamBox{
+    font-weight: 300;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 4px;
+    border-left: 4px solid #d943ff;
+    padding-left: 11px;
+}
+
+#uploadBtn{
+    width: 120px;
+}
+
+#SelectBtn{
+    width: 160px;
+    background-color: #DA86B3;
+    color: white;
+}
+
+.noBorder{
+    border: none !important;
+    padding-left: 2px !important;
+}
+
+#GenBtn{
+    background-color: #af59ff;
+    color: white;
+    width:160px ;
+}
+
+@media screen and (min-width:320px) and (max-width:768px){
+    .dashbox{
+        width: 100%;
+    }
+}
+
+#Generate, #Question{
+    display: none;
+}

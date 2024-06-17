@@ -1,0 +1,62 @@
+#mainPage{
+    margin: 15px 15px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    gap: 24px;
+}
+
+.rightDate{
+    text-align: right;
+}
+
+.heading{
+    font-weight: bold;
+}
+
+#inputBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.inputboxContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 8px;
+}
+
+.inputBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 400;
+    gap: 24px;
+}
+
+.textBox{
+    background-color: #FFEDC9;
+    border: 1px solid #003946;
+    outline: none;
+    border-radius: 2px;
+    padding:6px;
+    font-size: 14px;
+}
+
+
+.textBox :focus{
+    outline: 1px solid lightblue;
+}
+
+.inputBox p{
+    align-self: center;
+}
+
+.regno{
+    text-transform: uppercase;
+}

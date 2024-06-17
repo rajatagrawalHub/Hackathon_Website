@@ -1,0 +1,45 @@
+ul{
+    margin: 0;
+    padding: 0;
+}
+#resultContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-self: center;
+    gap: 12px;
+}
+
+.resultBox{
+    border: 3px solid rgba(163, 77, 163, 0.763);
+    border-radius: 1.5px;
+    padding: 15px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    gap: 12px;
+}
+
+.teamHead{
+    text-align: center;
+    font-weight: 600;
+}
+
+li{
+    list-style: none;
+}
+
+.position{
+    font-weight: bold;
+    padding-bottom: 2px;
+    border-bottom: 3px solid #FF9000;
+    width: fit-content;
+}
+
+@media screen and (min-width:320px) and (max-width:768px){
+    .resultBox{
+        font-size: 12px;
+    }
+  }

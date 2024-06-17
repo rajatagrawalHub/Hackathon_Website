@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <title>Codeathon</title>
+    <link rel="stylesheet" href="./style.css" >
+    <link rel="stylesheet" href="./registerStyle.css" >
+    <link rel="stylesheet" href="./styleDash.css" >
+</head>
+<body>
+    <div id="Container">
+        <div id="nav">
+            <div id="logo">
+                <img src="./img/logo.png" />
+            </div>
+            <div id="menuOptions">
+                <a id="HomeButton">Home</a>
+                <a id="TimelineButton" >Timeline</a>
+                <a id="EvalButton" >Evaluation</a>
+                <a id="FaqButton" >FAQs</a>
+                <a id="LoginButton" >Login</a>
+            </div>
+        </div>
+        <div id="mainPage">
+            <div id="topBar">
+                <p class="head">Hack Dashboard</p>
+                <div id="toprightBox">
+                    <img id="cLogo" src="./img/centerLogo.png">
+                    <div id="contentBox">
+                        <p>Current Section</p>
+                        <p id="currSec">Title Section</p>
+                    </div>
+                </div>
+            </div>
+            <div id="teamDetails">
+                <p class="teamHead">Team No. & Name :</p>
+                <p id="TeamDetail"></p>
+            </div>
+            <div id="dashContainer">
+                <div class="dashbox">
+                    <div class="titleBox">
+                        <p class="title">Team Members</p>
+                        <div class="titleBar"></div>
+                    </div>
+                    <div id="teamBox">
+                       
+                    </div>
+                    <label for="selectBtn" >Upload Final Review</label>
+                    <input type="file" id="SelectBtn" class="btn" accept="application/pdf" />
+                    <input type="button" id="uploadBtn" class="btn"value="Upload"  />
+                    <p style="color: blue" id="driveBtn">Click here to upload all the final project related files.</p>
+                </div>
+                <div class="dashbox">
+                    <div class="titleBox">
+                        <p class="title" id="titleVal">Title: Biometric X</p>
+                        <div class="titleBar"></div>
+                    </div>
+                    <div id="teamBox" class="noBorder">
+                        <p id="Generate">Generate your question to view the problem statement.</p>
+                        <p id="Question">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sit amet ultrices mauris, quis rhoncus ex. Praesent tincidunt erat felis, tempus fermentum ex aliquet id. Proin et libero id massa ullamcorper ullamcorper. Donec sagittis dui nisi, id euismod magna molestie at. </p>
+                    </div>
+                    <input type="button" id="GenBtn" value="Generate Question" class="btn"  />
+                </div>
+            </div>
+        </div>
+        <div id="prefooter">
+            <p>Organised By: Dr. Agilandeeswari L</p>
+            <p>Developed By: Rajat Agrawal</p>
+        </div>
+        <div id="footer">
+            <p>© School Of Computer Science Engineering and Information Systems [SCORE]</p>
+        </div>
+    </div>
+    <script type="module" src="./scriptDash.js" ></script>
+    <!-- <script src="https://kit.fontawesome.com/ed9ef1a521.js" crossorigin="anonymous"></script> -->
+
+</body>
+</html>
